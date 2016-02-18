@@ -66,11 +66,16 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Lesson02_FactAndTheory.cs" />
+    <Compile Include="Lesson03_Fixture\SharedContext_AssemblyFixture.cs" />
+    <Compile Include="Lesson03_Fixture\SharedContext_ClassFixture.cs" />
+    <Compile Include="Lesson03_Fixture\SharedContext_CollectionFixture.cs" />
+    <Compile Include="Lesson03_Fixture\SharedContext_Constructor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
