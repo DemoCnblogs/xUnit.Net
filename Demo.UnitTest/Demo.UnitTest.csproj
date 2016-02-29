@@ -65,12 +65,17 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="RetryFact\DelayedMessageBus.cs" />
+    <Compile Include="RetryFact\RetryFactAttribute.cs" />
+    <Compile Include="RetryFact\RetryFactDiscoverer.cs" />
     <Compile Include="Lesson02_FactAndTheory.cs" />
     <Compile Include="Lesson03_Fixture\SharedContext_AssemblyFixture.cs" />
     <Compile Include="Lesson03_Fixture\SharedContext_ClassFixture.cs" />
     <Compile Include="Lesson03_Fixture\SharedContext_CollectionFixture.cs" />
     <Compile Include="Lesson03_Fixture\SharedContext_Constructor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RetryFact\RetryTestCase.cs" />
+    <Compile Include="RetryFact\Samples.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
