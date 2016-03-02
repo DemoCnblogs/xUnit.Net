@@ -7,7 +7,7 @@ using Xunit;
 
 namespace Demo.UnitTest.RetryFact
 {
-    public class Samples
+    public class RetryFactSamples
     {
         public class CounterFixture
         {
@@ -25,7 +25,7 @@ namespace Demo.UnitTest.RetryFact
             }
 
             //[Fact]
-            [RetryFact(MaxRetries = 10)]
+            [RetryFact(MaxRetries = 11)]
             public void IWillPassTheSecondTime()
             {
                 Assert.Equal(10, counter.RunCount);
