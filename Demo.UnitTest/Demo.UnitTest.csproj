@@ -65,6 +65,8 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="Lesson05_Assert\Assert_Async.cs" />
+    <Compile Include="Lesson05_Assert\Assert_Collection.cs" />
     <Compile Include="Lesson05_Assert\Assert_Sample.cs" />
     <Compile Include="Lesson05_Assert\SingletonFactory.cs" />
     <Compile Include="RetryFact\DelayedMessageBus.cs" />
