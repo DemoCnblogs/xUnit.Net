@@ -24,11 +24,10 @@ namespace Demo.UnitTest.RetryFact
                 counter.RunCount++;
             }
 
-            //[Fact]
-            [RetryFact(MaxRetries = 11)]
+            [RetryFact(DisplayName = "RetryFactSamples.Demo01", MaxRetries = 5)]
             public void IWillPassTheSecondTime()
             {
-                Assert.Equal(10, counter.RunCount);
+                Assert.Equal(2, counter.RunCount);
             }
         }
     }
